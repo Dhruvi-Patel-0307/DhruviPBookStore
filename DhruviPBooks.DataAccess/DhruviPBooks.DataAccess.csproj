@@ -15,4 +15,8 @@
     <ProjectReference Include="..\DhruviPBooks.Utility\DhruviPBooks.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repository\IRepository\" />
+  </ItemGroup>
+
 </Project>
