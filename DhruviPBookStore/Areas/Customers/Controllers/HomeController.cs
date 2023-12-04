@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace DhruviPBookStore.Controllers
 {
+    [Area("Customers")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
