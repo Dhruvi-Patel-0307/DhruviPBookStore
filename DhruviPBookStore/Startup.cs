@@ -1,3 +1,5 @@
+using DhruviPBooks.DataAccess.Repository;
+using DhruviPBooks.DataAccess.Repository.IRepository;
 using DhruviPBookStore.DataAccess.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -34,6 +36,7 @@ namespace DhruviPBookStore
 
             services.AddDefaultIdentity<IdentityUser>()       //options => options.SignIn.RequireConfirmedAccount = true
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 
