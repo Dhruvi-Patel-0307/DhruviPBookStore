@@ -60,3 +60,6 @@ I started phase 3
 And it was basic like  phase 2 
 
 Firstly I repeat same process as category and made covertype
+
+i check each and everything and my project is done at 2 pm 
+and for bonus point i also upload on AZURE.
